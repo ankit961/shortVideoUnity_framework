@@ -44,18 +44,15 @@ using UnityEngine;
 
 public class VideoController : MonoBehaviour
 {
-    [DllImport("__Internal")]
-    private static extern void loadVideo(string url);
-
-    [DllImport("__Internal")]
-    private static extern void play();
+    [DllImport("__Internal")] private static extern void Sh_loadVideo(string url);
+    [DllImport("__Internal")] private static extern void Sh_play();
 
     public void LoadAndPlay()
     {
-      ##if UNITY_IOS && !UNITY_EDITOR
-        loadVideo("https://example.com/video.m3u8");
-        play();
-      ##endif
+    ##if UNITY_IOS && !UNITY_EDITOR
+        Sh_loadVideo("https://example.com/video.m3u8");
+        Sh_play();
+    ##endif
     }
 }
 
@@ -71,7 +68,7 @@ public class VideoController : MonoBehaviour
 
 ### Mandatory Initialization
 
-Before calling `Play()`, you **must** call `SetURLs()` with an array of valid video URLs. Failing to do so may cause a native crash.
+Before calling `Sh_play()`, you **must** call `Sh_setURLs()` with an array of valid video URLs. Failing to do so may cause a native crash.
 
 Example in Unity MonoBehaviour:
 
@@ -84,29 +81,29 @@ public class VideoPlayerController : MonoBehaviour
     void Start()
     {
         playerBridge = GetComponent<VideoPlayerBridge>();
-        playerBridge.SetURLs(videoURLs);
-        playerBridge.Play();
+        playerBridge.Sh_setURLs(videoURLs);
+        playerBridge.Sh_play()();
     }
 
     void OnApplicationQuit()
     {
-        playerBridge.Cleanup();
+        playerBridge.Sh_cleanup();
     }
     
     void OnApplicationPause ( bool pause )
     {
-        if ( !pause )    playerBridge.Play();
+        if ( !pause )    playerBridge.Sh_play();
     }
 }
 ```
 
 ### Cleaning Up
 
-Always call `Cleanup()` in `OnApplicationQuit()` to release native resources and prevent background playback.
+Always call `Sh_cleanup()` in `OnApplicationQuit()` to release native resources and prevent background playback.
 
 
 ## ⚠️ Usage Guidelines
 
-- Set the video URLs using `SetURLs()` **before** calling `Play()`.
-- Always call `Cleanup()` in `OnApplicationQuit()` to avoid background playback.
-- Avoid calling `Play()` without setting URLs — it may result in a native crash.
+- Set the video URLs using `Sh_setURLs()` **before** calling `Sh_play()`.
+- Always call `Sh_cleanup()` in `OnApplicationQuit()` to avoid background playback.
+- Avoid calling `Sh_play()` without setting URLs — it may result in a native crash.

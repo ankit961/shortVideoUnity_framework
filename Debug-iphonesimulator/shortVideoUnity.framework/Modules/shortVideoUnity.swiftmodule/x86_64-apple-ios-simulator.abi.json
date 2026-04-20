@@ -10208,8 +10208,8 @@
       },
       {
         "kind": "Function",
-        "name": "loadVideo",
-        "printedName": "loadVideo(urlString:)",
+        "name": "Sh_loadVideo",
+        "printedName": "Sh_loadVideo(urlString:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10232,8 +10232,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)loadVideoWithUrlString:",
-        "mangledName": "$s15shortVideoUnity04loadB09urlStringySPys4Int8VG_tF",
+        "usr": "c:(cm)Sh_loadVideoWithUrlString:",
+        "mangledName": "$s15shortVideoUnity07Sh_loadB09urlStringySPys4Int8VG_tF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10243,8 +10243,8 @@
       },
       {
         "kind": "Function",
-        "name": "play",
-        "printedName": "play()",
+        "name": "Sh_play",
+        "printedName": "Sh_play()",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10253,8 +10253,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)play",
-        "mangledName": "$s15shortVideoUnity4playyyF",
+        "usr": "c:(cm)Sh_play",
+        "mangledName": "$s15shortVideoUnity7Sh_playyyF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10264,8 +10264,8 @@
       },
       {
         "kind": "Function",
-        "name": "pause",
-        "printedName": "pause()",
+        "name": "Sh_pause",
+        "printedName": "Sh_pause()",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10274,8 +10274,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)pause",
-        "mangledName": "$s15shortVideoUnity5pauseyyF",
+        "usr": "c:(cm)Sh_pause",
+        "mangledName": "$s15shortVideoUnity8Sh_pauseyyF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10285,8 +10285,8 @@
       },
       {
         "kind": "Function",
-        "name": "stop",
-        "printedName": "stop()",
+        "name": "Sh_stop",
+        "printedName": "Sh_stop()",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10295,8 +10295,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)stop",
-        "mangledName": "$s15shortVideoUnity4stopyyF",
+        "usr": "c:(cm)Sh_stop",
+        "mangledName": "$s15shortVideoUnity7Sh_stopyyF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10306,35 +10306,8 @@
       },
       {
         "kind": "Function",
-        "name": "seekForward",
-        "printedName": "seekForward(seconds:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Double",
-            "printedName": "Swift.Double",
-            "usr": "s:Sd"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "c:(cm)seekForwardWithSeconds:",
-        "mangledName": "$s15shortVideoUnity11seekForward7secondsySd_tF",
-        "moduleName": "shortVideoUnity",
-        "declAttributes": [
-          "AccessControl",
-          "CDecl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "seekBackward",
-        "printedName": "seekBackward(seconds:)",
+        "name": "Sh_seekForward",
+        "printedName": "Sh_seekForward(seconds:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10349,8 +10322,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)seekBackwardWithSeconds:",
-        "mangledName": "$s15shortVideoUnity12seekBackward7secondsySd_tF",
+        "usr": "c:(cm)Sh_seekForwardWithSeconds:",
+        "mangledName": "$s15shortVideoUnity14Sh_seekForward7secondsySd_tF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10360,8 +10333,8 @@
       },
       {
         "kind": "Function",
-        "name": "seekTo",
-        "printedName": "seekTo(value:)",
+        "name": "Sh_seekBackward",
+        "printedName": "Sh_seekBackward(seconds:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10376,8 +10349,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)seekToValue:",
-        "mangledName": "$s15shortVideoUnity6seekTo5valueySd_tF",
+        "usr": "c:(cm)Sh_seekBackwardWithSeconds:",
+        "mangledName": "$s15shortVideoUnity15Sh_seekBackward7secondsySd_tF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10387,8 +10360,35 @@
       },
       {
         "kind": "Function",
-        "name": "cleanup",
-        "printedName": "cleanup()",
+        "name": "Sh_seekTo",
+        "printedName": "Sh_seekTo(value:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)Sh_seekToValue:",
+        "mangledName": "$s15shortVideoUnity9Sh_seekTo5valueySd_tF",
+        "moduleName": "shortVideoUnity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Sh_cleanup",
+        "printedName": "Sh_cleanup()",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10397,8 +10397,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)cleanup",
-        "mangledName": "$s15shortVideoUnity7cleanupyyF",
+        "usr": "c:(cm)Sh_cleanup",
+        "mangledName": "$s15shortVideoUnity10Sh_cleanupyyF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10408,8 +10408,8 @@
       },
       {
         "kind": "Function",
-        "name": "setURLS",
-        "printedName": "setURLS(_:_:)",
+        "name": "Sh_setURLS",
+        "printedName": "Sh_setURLS(_:_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10454,8 +10454,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setURLS::",
-        "mangledName": "$s15shortVideoUnity7setURLSyySPySPys4Int8VGSgG_s5Int32VtF",
+        "usr": "c:(cm)Sh_setURLS::",
+        "mangledName": "$s15shortVideoUnity10Sh_setURLSyySPySPys4Int8VGSgG_s5Int32VtF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10465,8 +10465,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowForwardButton",
-        "printedName": "setShowForwardButton(_:)",
+        "name": "Sh_setShowForwardButton",
+        "printedName": "Sh_setShowForwardButton(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10481,8 +10481,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowForwardButton:",
-        "mangledName": "$s15shortVideoUnity20setShowForwardButtonyySbF",
+        "usr": "c:(cm)Sh_setShowForwardButton:",
+        "mangledName": "$s15shortVideoUnity23Sh_setShowForwardButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10492,8 +10492,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowBackwordButton",
-        "printedName": "setShowBackwordButton(_:)",
+        "name": "Sh_setShowBackwordButton",
+        "printedName": "Sh_setShowBackwordButton(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10508,8 +10508,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowBackwordButton:",
-        "mangledName": "$s15shortVideoUnity21setShowBackwordButtonyySbF",
+        "usr": "c:(cm)Sh_setShowBackwordButton:",
+        "mangledName": "$s15shortVideoUnity24Sh_setShowBackwordButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10519,8 +10519,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowBack10Button",
-        "printedName": "setShowBack10Button(_:)",
+        "name": "Sh_setShowBack10Button",
+        "printedName": "Sh_setShowBack10Button(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10535,8 +10535,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowBack10Button:",
-        "mangledName": "$s15shortVideoUnity19setShowBack10ButtonyySbF",
+        "usr": "c:(cm)Sh_setShowBack10Button:",
+        "mangledName": "$s15shortVideoUnity22Sh_setShowBack10ButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10546,8 +10546,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowFor10Button",
-        "printedName": "setShowFor10Button(_:)",
+        "name": "Sh_setShowFor10Button",
+        "printedName": "Sh_setShowFor10Button(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10562,8 +10562,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowFor10Button:",
-        "mangledName": "$s15shortVideoUnity18setShowFor10ButtonyySbF",
+        "usr": "c:(cm)Sh_setShowFor10Button:",
+        "mangledName": "$s15shortVideoUnity21Sh_setShowFor10ButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10573,8 +10573,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowPlayPauseButton",
-        "printedName": "setShowPlayPauseButton(_:)",
+        "name": "Sh_setShowPlayPauseButton",
+        "printedName": "Sh_setShowPlayPauseButton(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10589,8 +10589,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowPlayPauseButton:",
-        "mangledName": "$s15shortVideoUnity22setShowPlayPauseButtonyySbF",
+        "usr": "c:(cm)Sh_setShowPlayPauseButton:",
+        "mangledName": "$s15shortVideoUnity25Sh_setShowPlayPauseButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10600,8 +10600,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowBackButton",
-        "printedName": "setShowBackButton(_:)",
+        "name": "Sh_setShowBackButton",
+        "printedName": "Sh_setShowBackButton(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10616,8 +10616,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowBackButton:",
-        "mangledName": "$s15shortVideoUnity17setShowBackButtonyySbF",
+        "usr": "c:(cm)Sh_setShowBackButton:",
+        "mangledName": "$s15shortVideoUnity20Sh_setShowBackButtonyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10627,8 +10627,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowLogo",
-        "printedName": "setShowLogo(_:)",
+        "name": "Sh_setShowLogo",
+        "printedName": "Sh_setShowLogo(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10643,8 +10643,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowLogo:",
-        "mangledName": "$s15shortVideoUnity11setShowLogoyySbF",
+        "usr": "c:(cm)Sh_setShowLogo:",
+        "mangledName": "$s15shortVideoUnity14Sh_setShowLogoyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10654,8 +10654,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowSeekbar",
-        "printedName": "setShowSeekbar(_:)",
+        "name": "Sh_setShowSeekbar",
+        "printedName": "Sh_setShowSeekbar(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10670,8 +10670,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowSeekbar:",
-        "mangledName": "$s15shortVideoUnity14setShowSeekbaryySbF",
+        "usr": "c:(cm)Sh_setShowSeekbar:",
+        "mangledName": "$s15shortVideoUnity17Sh_setShowSeekbaryySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10681,8 +10681,8 @@
       },
       {
         "kind": "Function",
-        "name": "setShowTimeDuration",
-        "printedName": "setShowTimeDuration(_:)",
+        "name": "Sh_setShowTimeDuration",
+        "printedName": "Sh_setShowTimeDuration(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10697,8 +10697,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setShowTimeDuration:",
-        "mangledName": "$s15shortVideoUnity19setShowTimeDurationyySbF",
+        "usr": "c:(cm)Sh_setShowTimeDuration:",
+        "mangledName": "$s15shortVideoUnity22Sh_setShowTimeDurationyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10708,8 +10708,8 @@
       },
       {
         "kind": "Function",
-        "name": "setAdsEnabled",
-        "printedName": "setAdsEnabled(_:)",
+        "name": "Sh_setAdsEnabled",
+        "printedName": "Sh_setAdsEnabled(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10724,8 +10724,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setAdsEnabled:",
-        "mangledName": "$s15shortVideoUnity13setAdsEnabledyySbF",
+        "usr": "c:(cm)Sh_setAdsEnabled:",
+        "mangledName": "$s15shortVideoUnity16Sh_setAdsEnabledyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10735,8 +10735,8 @@
       },
       {
         "kind": "Function",
-        "name": "setPreRollEnabled",
-        "printedName": "setPreRollEnabled(_:)",
+        "name": "Sh_setPreRollEnabled",
+        "printedName": "Sh_setPreRollEnabled(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10751,8 +10751,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setPreRollEnabled:",
-        "mangledName": "$s15shortVideoUnity17setPreRollEnabledyySbF",
+        "usr": "c:(cm)Sh_setPreRollEnabled:",
+        "mangledName": "$s15shortVideoUnity20Sh_setPreRollEnabledyySbF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10762,8 +10762,8 @@
       },
       {
         "kind": "Function",
-        "name": "setAdFrequency",
-        "printedName": "setAdFrequency(_:)",
+        "name": "Sh_setAdFrequency",
+        "printedName": "Sh_setAdFrequency(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10778,8 +10778,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setAdFrequency:",
-        "mangledName": "$s15shortVideoUnity14setAdFrequencyyys5Int32VF",
+        "usr": "c:(cm)Sh_setAdFrequency:",
+        "mangledName": "$s15shortVideoUnity17Sh_setAdFrequencyyys5Int32VF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10789,8 +10789,8 @@
       },
       {
         "kind": "Function",
-        "name": "setAdURLs",
-        "printedName": "setAdURLs(_:_:)",
+        "name": "Sh_setAdURLs",
+        "printedName": "Sh_setAdURLs(_:_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10835,8 +10835,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)setAdURLs::",
-        "mangledName": "$s15shortVideoUnity9setAdURLsyySPySPys4Int8VGSgG_s5Int32VtF",
+        "usr": "c:(cm)Sh_setAdURLs::",
+        "mangledName": "$s15shortVideoUnity12Sh_setAdURLsyySPySPys4Int8VGSgG_s5Int32VtF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
@@ -10905,8 +10905,8 @@
       },
       {
         "kind": "Function",
-        "name": "registerUnityCallback",
-        "printedName": "registerUnityCallback()",
+        "name": "Sh_registerUnityCallback",
+        "printedName": "Sh_registerUnityCallback()",
         "children": [
           {
             "kind": "TypeNominal",
@@ -10915,13 +10915,12 @@
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)registerUnityCallback",
-        "mangledName": "$s15shortVideoUnity08registerC8CallbackyyF",
+        "usr": "c:(cm)Sh_registerUnityCallback",
+        "mangledName": "$s15shortVideoUnity011Sh_registerC8CallbackyyF",
         "moduleName": "shortVideoUnity",
         "declAttributes": [
           "AccessControl",
-          "CDecl",
-          "RawDocComment"
+          "CDecl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -13461,329 +13460,329 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/Views\/SwiftUISlider.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/Views\/SwiftUISlider.swift",
       "kind": "IntegerLiteral",
       "offset": 4256,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/Views\/SwiftUISlider.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/Views\/SwiftUISlider.swift",
       "kind": "BooleanLiteral",
       "offset": 4274,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/Views\/SwiftUISlider.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/Views\/SwiftUISlider.swift",
       "kind": "IntegerLiteral",
       "offset": 4291,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/Views\/VideoPlayerView.swift",
       "kind": "Array",
       "offset": 7177,
       "length": 385,
       "value": "[\"https:\/\/www.shutterstock.com\/shutterstock\/videos\/3904659039\/preview\/stock-footage-shanghai-china-vertical-aerial-orbiting-the-oriental-pearl-tower-sunrise-in.mp4\", \"https:\/\/www.w3schools.com\/html\/mov_bbb.mp4\", \"https:\/\/www.shutterstock.com\/shutterstock\/videos\/3904659039\/preview\/stock-footage-shanghai-china-vertical-aerial-orbiting-the-oriental-pearl-tower-sunrise-in.mp4\"]"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 632,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 729,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 777,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 830,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 886,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 940,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 993,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1050,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1102,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1198,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1251,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1356,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1414,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1465,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1571,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1683,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "StringLiteral",
       "offset": 1740,
       "length": 90,
       "value": "\"https:\/\/d142uv38695ylm.cloudfront.net\/videos\/promo\/allesneu.land-promo-trailer-360p.m3u8\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 1839,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "Array",
       "offset": 1875,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1911,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1954,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 1993,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 2039,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "Array",
       "offset": 2087,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 2138,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/enpointe\/Desktop\/UnityVideoPlayer\/Testing_Short_video_player\/shortVideoUnity\/UnityVideoPlugin.swift",
+      "filePath": "\/Users\/enpointe\/Desktop\/Video Player\/Short Video Player\/shortVideoUnity_sdk_code\/shortVideoUnity\/UnityVideoPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 2190,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 8,
       "value": "\"Circle\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 7,
       "value": "\"Pause\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 6,
       "value": "\"Play\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1273,
       "length": 12,
       "value": "\"backbutton\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1438,
       "length": 13,
       "value": "\"backword_10\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 12,
       "value": "\"forward_10\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 11,
       "value": "\"gray_back\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1914,
       "length": 6,
       "value": "\"prev\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2072,
       "length": 12,
       "value": "\"skidosLogo\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2228,
       "length": 8,
       "value": "\"slider\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2389,
       "length": 13,
       "value": "\"slider_thik\""
     },
     {
-      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-azowgewelryslvacqmeqmiubfszm\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/enpointe\/Library\/Developer\/Xcode\/DerivedData\/shortVideoUnity-eccywztuhetsyhbtofpgcifmfmzd\/Build\/Intermediates.noindex\/shortVideoUnity.build\/Debug-iphonesimulator\/shortVideoUnity.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2555,
       "length": 13,
