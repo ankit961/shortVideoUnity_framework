@@ -33,6 +33,7 @@ You can trigger Unity callbacks from Swift using:
 sendUnityCallback("event:play")
 sendUnityCallback("event:pause")
 sendUnityCallback("event:exit,total:300,watched:240")
+```
 
 ### 📘 Example Usage in Unity
 
@@ -55,7 +56,7 @@ public class VideoController : MonoBehaviour
     ##endif
     }
 }
-
+```
 
 ## 🧹 Unity Integration
 
