@@ -6,39 +6,43 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		EuRpE5qsambRk5qqRyoBi2B5hEA=
+		mkDstD4ek3nIvwVRjGRjYuHmFzc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m0DWWdKxBJd0MRb4HXFNAQSeQp8=
+		X7+xCOHVFHK142DTDqCRYY746UE=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		QzBjUI1DE90byyiZB5RpIQ3ObRo=
+		OowWrtGNcew42ogEYjOL8KA9cZo=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Oni7ESSI1c/sEip9l7h94rlCtFw=
+		YmgaRbtCGzFDb2ov0TzCi2JuuBI=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bqN8SimpIOL2N61JDmONVin09i0=
+		r9Zh/p3UUIao8N/4yksOq+hYMSA=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ZFx5DyZ3baSmr5LHV460V8VFgs0=
+		H+EXEFCPZcNhnQUSwvpnYAeWuZ0=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bqN8SimpIOL2N61JDmONVin09i0=
+		r9Zh/p3UUIao8N/4yksOq+hYMSA=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vRCPLLZMoA4h7CMT8UIHaiUvjYk=
+		+kY8uwv3dyb7ZVBszcbzkgBCQ/w=
 		</data>
 		<key>Star_Burst.json</key>
 		<data>
 		BtYkj3RYnrIgT3YPLDLNUm8rEs4=
+		</data>
+		<key>VideoPlayerBridgging.swift.bak</key>
+		<data>
+		CITTly0678mFwpaT9zjQ7mkiR2w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,49 +51,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkfyTI4HyluhC5GVcLQ7O9nIwJGKCPmPvz49TGbG05A=
+			w4rZWhee9MF2AMiTkDfxCszJFC0PZXpnnCl21oXicPk=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKDSIlOXgf99GTa+XGHTKd370QUzSgmj+lJ1nxerRHU=
+			nNLqhXlgwKfWzIabzkKcD219s1IgqTOxcJBjJS0a5Lc=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rZc2HumzutHz6Gs4JbPJPzJrrGtSX2rYCCg8P9pwdSM=
+			yz+He/zKLKQI4MIKs1XD2mfE5NZSYi6wUkGe7peKsfw=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5PC225ZOh+1N8MpgmUUJ0dScnTZAm2a3k/35DFa7ME=
+			53RDg4IogDGd8SHvF/IFkSGc0S8AFNHIzUxkSu8T5l0=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9MDD3TCkOjmu3XlKyWWskLpLOEY299m8oPTOBSMa9I=
+			CW3VAwEgnjzUtfiC6EjUBsztW5jMIi5t10EFgxsNkHI=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5PC225ZOh+1N8MpgmUUJ0dScnTZAm2a3k/35DFa7ME=
+			53RDg4IogDGd8SHvF/IFkSGc0S8AFNHIzUxkSu8T5l0=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4aWkvQDPGG46IzBZboCCMHWWmjYxmno7E89U5NCOQhE=
+			Mew8uE54D556FpNvroIyDpGpHcEm9ihiTm7sfldpfLk=
 			</data>
 		</dict>
 		<key>Star_Burst.json</key>
@@ -97,6 +101,13 @@
 			<key>hash2</key>
 			<data>
 			TLEukZnXsh0G7oPFXnLmnSz+L3lfMS3MgSxtgCI43xE=
+			</data>
+		</dict>
+		<key>VideoPlayerBridgging.swift.bak</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SwnwcVsp2oVtvvi4/JlX692XCetas87m0n3G6uxM5II=
 			</data>
 		</dict>
 	</dict>
