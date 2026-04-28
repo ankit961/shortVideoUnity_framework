@@ -14,15 +14,15 @@
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		OowWrtGNcew42ogEYjOL8KA9cZo=
+		jBzhGRG6M8x07GJk92vFg2fxp8Y=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YmgaRbtCGzFDb2ov0TzCi2JuuBI=
+		Dsu3uzq4O6tNwm3mlhcO2Z7WAX4=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		r9Zh/p3UUIao8N/4yksOq+hYMSA=
+		VZYI/Dy37kqgaAcA0WAgFdzH2h8=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,19 +30,15 @@
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		r9Zh/p3UUIao8N/4yksOq+hYMSA=
+		VZYI/Dy37kqgaAcA0WAgFdzH2h8=
 		</data>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+kY8uwv3dyb7ZVBszcbzkgBCQ/w=
+		lNJ1m9fdewfDSE105usDFf3reVE=
 		</data>
 		<key>Star_Burst.json</key>
 		<data>
 		BtYkj3RYnrIgT3YPLDLNUm8rEs4=
-		</data>
-		<key>VideoPlayerBridgging.swift.bak</key>
-		<data>
-		CITTly0678mFwpaT9zjQ7mkiR2w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -58,21 +54,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNLqhXlgwKfWzIabzkKcD219s1IgqTOxcJBjJS0a5Lc=
+			03cKHCssgqtSReNurCqf0VqSI/4y6xxRCyXTIp7N/wc=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yz+He/zKLKQI4MIKs1XD2mfE5NZSYi6wUkGe7peKsfw=
+			cgOW69I3HBBqDU0XiYuPEZ/HqlIaH7zQqDXAplo2Qnw=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			53RDg4IogDGd8SHvF/IFkSGc0S8AFNHIzUxkSu8T5l0=
+			+ddN5P4n3bfl9+yOu8tcQ6MFU8xKz2W3Fwzgr7+0J2M=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			53RDg4IogDGd8SHvF/IFkSGc0S8AFNHIzUxkSu8T5l0=
+			+ddN5P4n3bfl9+yOu8tcQ6MFU8xKz2W3Fwzgr7+0J2M=
 			</data>
 		</dict>
 		<key>Modules/shortVideoUnity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mew8uE54D556FpNvroIyDpGpHcEm9ihiTm7sfldpfLk=
+			gzWEAkIX0JzTkYrWulP0Vgd19DCtvIzA0j5YkINvywc=
 			</data>
 		</dict>
 		<key>Star_Burst.json</key>
@@ -101,13 +97,6 @@
 			<key>hash2</key>
 			<data>
 			TLEukZnXsh0G7oPFXnLmnSz+L3lfMS3MgSxtgCI43xE=
-			</data>
-		</dict>
-		<key>VideoPlayerBridgging.swift.bak</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SwnwcVsp2oVtvvi4/JlX692XCetas87m0n3G6uxM5II=
 			</data>
 		</dict>
 	</dict>

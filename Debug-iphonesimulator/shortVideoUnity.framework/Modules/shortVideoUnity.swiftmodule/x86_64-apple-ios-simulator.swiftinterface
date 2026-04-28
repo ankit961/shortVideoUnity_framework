@@ -14,95 +14,6 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor @preconcurrency public struct DissabledViewModifier : SwiftUICore.ViewModifier {
-  @_Concurrency.MainActor @preconcurrency public func body(content: shortVideoUnity.DissabledViewModifier.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity21DissabledViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF", 0) __
-}
-public class VideoPlayerService {
-  public init()
-  public func loadVideo(urlString: Swift.String)
-  public func play()
-  public func pause()
-  public func stop()
-  public func seekForward(seconds: Swift.Double)
-  public func seekBackward(seconds: Swift.Double)
-  public func cleanup()
-  public func seekTo(value: Swift.Double)
-  public func setURLS(urls: [Swift.String])
-  public func setAdsEnabled(_ enabled: Swift.Bool)
-  public func setPreRollEnabled(_ enabled: Swift.Bool)
-  public func setAdFrequency(_ frequency: Swift.Int)
-  public func setAdURLs(_ urls: [Swift.String])
-  public func setShowForwardButton(_ visible: Swift.Bool)
-  public func setShowBackwordButton(_ visible: Swift.Bool)
-  public func setShowBack10Button(_ visible: Swift.Bool)
-  public func setShowFor10Button(_ visible: Swift.Bool)
-  public func setShowPlayPauseButton(_ visible: Swift.Bool)
-  public func setShowBackButton(_ visible: Swift.Bool)
-  public func setShowLogo(_ visible: Swift.Bool)
-  public func setShowSeekbar(_ visible: Swift.Bool)
-  public func setShowTimeDuration(_ visible: Swift.Bool)
-  @objc deinit
-}
-extension UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public func topMostViewController() -> UIKit.UIViewController?
-}
-@_Concurrency.MainActor @preconcurrency public struct HiddenViewModifier : SwiftUICore.ViewModifier {
-  @_Concurrency.MainActor @preconcurrency public func body(content: shortVideoUnity.HiddenViewModifier.Content) -> some SwiftUICore.View
-  
-  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity18HiddenViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF", 0) __
-}
-public var currentVideoPlayerService: shortVideoUnity.VideoPlayerService?
-@_cdecl("Sh_loadVideo")
-public func loadVideo(urlString: Swift.UnsafePointer<Swift.CChar>)
-@_cdecl("Sh_play")
-public func play()
-@_cdecl("Sh_pause")
-public func pause()
-@_cdecl("Sh_stop")
-public func stop()
-@_cdecl("Sh_seekForward")
-public func seekForward(seconds: Swift.Double)
-@_cdecl("Sh_seekBackward")
-public func seekBackward(seconds: Swift.Double)
-@_cdecl("Sh_seekTo")
-public func seekTo(value: Swift.Double)
-@_cdecl("Sh_cleanup")
-public func cleanup()
-@_cdecl("Sh_setURLS")
-public func setURLS(_ cArray: Swift.UnsafePointer<Swift.UnsafePointer<Swift.CChar>?>, _ count: Swift.Int32)
-@_cdecl("Sh_setShowForwardButton")
-public func setShowForwardButton(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowBackwordButton")
-public func setShowBackwordButton(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowBack10Button")
-public func setShowBack10Button(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowFor10Button")
-public func setShowFor10Button(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowPlayPauseButton")
-public func setShowPlayPauseButton(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowBackButton")
-public func setShowBackButton(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowLogo")
-public func setShowLogo(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowSeekbar")
-public func setShowSeekbar(_ visible: Swift.Bool)
-@_cdecl("Sh_setShowTimeDuration")
-public func setShowTimeDuration(_ visible: Swift.Bool)
-@_cdecl("Sh_setAdsEnabled")
-public func setAdsEnabled(_ enabled: Swift.Bool)
-@_cdecl("Sh_setPreRollEnabled")
-public func setPreRollEnabled(_ enabled: Swift.Bool)
-@_cdecl("Sh_setAdFrequency")
-public func setAdFrequency(_ frequency: Swift.Int32)
-@_cdecl("Sh_setAdURLs")
-public func setAdURLs(_ cArray: Swift.UnsafePointer<Swift.UnsafePointer<Swift.CChar>?>, _ count: Swift.Int32)
-@_cdecl("Sh_registerUnityCallback")
-public func registerUnityCallback()
-extension UIKit.UIImage {
-  public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
-}
 @objc @_inheritsConvenienceInitializers public class PlayerController : ObjectiveC.NSObject, Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($player) public var player: AVFoundation.AVPlayer? {
     get
@@ -383,24 +294,11 @@ extension UIKit.UIImage {
   @objc deinit
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
-@_Concurrency.MainActor @preconcurrency public struct VideoPlayerView : SwiftUICore.View {
-  @SwiftUICore.ObservedObject @_projectedValueProperty($playerController) @_Concurrency.MainActor @preconcurrency public var playerController: shortVideoUnity.PlayerController {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    _modify
-  }
-  @_Concurrency.MainActor @preconcurrency public var $playerController: SwiftUICore.ObservedObject<shortVideoUnity.PlayerController>.Wrapper {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency public init(playerController: shortVideoUnity.PlayerController)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity0B10PlayerViewV4bodyQrvp", 0) __
+@_Concurrency.MainActor @preconcurrency public struct DissabledViewModifier : SwiftUICore.ViewModifier {
+  @_Concurrency.MainActor @preconcurrency public func body(content: shortVideoUnity.DissabledViewModifier.Content) -> some SwiftUICore.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity21DissabledViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF", 0) __
 }
-
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func isHidden(_ bool: Swift.Bool) -> some SwiftUICore.View
   
@@ -419,7 +317,109 @@ extension SwiftUICore.View {
   public typealias UIViewType = UIKit.UISlider
 }
 
+@_Concurrency.MainActor @preconcurrency public struct HiddenViewModifier : SwiftUICore.ViewModifier {
+  @_Concurrency.MainActor @preconcurrency public func body(content: shortVideoUnity.HiddenViewModifier.Content) -> some SwiftUICore.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity18HiddenViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF", 0) __
+}
+extension UIKit.UIImage {
+  public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
+}
+public class VideoPlayerService {
+  public init()
+  public func loadVideo(urlString: Swift.String)
+  public func play()
+  public func pause()
+  public func stop()
+  public func seekForward(seconds: Swift.Double)
+  public func seekBackward(seconds: Swift.Double)
+  public func cleanup()
+  public func seekTo(value: Swift.Double)
+  public func setURLS(urls: [Swift.String])
+  public func setAdsEnabled(_ enabled: Swift.Bool)
+  public func setPreRollEnabled(_ enabled: Swift.Bool)
+  public func setAdFrequency(_ frequency: Swift.Int)
+  public func setAdURLs(_ urls: [Swift.String])
+  public func setShowForwardButton(_ visible: Swift.Bool)
+  public func setShowBackwordButton(_ visible: Swift.Bool)
+  public func setShowBack10Button(_ visible: Swift.Bool)
+  public func setShowFor10Button(_ visible: Swift.Bool)
+  public func setShowPlayPauseButton(_ visible: Swift.Bool)
+  public func setShowBackButton(_ visible: Swift.Bool)
+  public func setShowLogo(_ visible: Swift.Bool)
+  public func setShowSeekbar(_ visible: Swift.Bool)
+  public func setShowTimeDuration(_ visible: Swift.Bool)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct VideoPlayerView : SwiftUICore.View {
+  @SwiftUICore.ObservedObject @_projectedValueProperty($playerController) @_Concurrency.MainActor @preconcurrency public var playerController: shortVideoUnity.PlayerController {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $playerController: SwiftUICore.ObservedObject<shortVideoUnity.PlayerController>.Wrapper {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(playerController: shortVideoUnity.PlayerController)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15shortVideoUnity0B10PlayerViewV4bodyQrvp", 0) __
+}
+
+public var currentVideoPlayerService: shortVideoUnity.VideoPlayerService?
+@_cdecl("Sh_loadVideo")
+public func loadVideo(urlString: Swift.UnsafePointer<Swift.CChar>)
+@_cdecl("Sh_play")
+public func play()
+@_cdecl("Sh_pause")
+public func pause()
+@_cdecl("Sh_stop")
+public func stop()
+@_cdecl("Sh_seekForward")
+public func seekForward(seconds: Swift.Double)
+@_cdecl("Sh_seekBackward")
+public func seekBackward(seconds: Swift.Double)
+@_cdecl("Sh_seekTo")
+public func seekTo(value: Swift.Double)
+@_cdecl("Sh_cleanup")
+public func cleanup()
+@_cdecl("Sh_setURLS")
+public func setURLS(_ cArray: Swift.UnsafePointer<Swift.UnsafePointer<Swift.CChar>?>, _ count: Swift.Int32)
+@_cdecl("Sh_setShowForwardButton")
+public func setShowForwardButton(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowBackwordButton")
+public func setShowBackwordButton(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowBack10Button")
+public func setShowBack10Button(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowFor10Button")
+public func setShowFor10Button(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowPlayPauseButton")
+public func setShowPlayPauseButton(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowBackButton")
+public func setShowBackButton(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowLogo")
+public func setShowLogo(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowSeekbar")
+public func setShowSeekbar(_ visible: Swift.Bool)
+@_cdecl("Sh_setShowTimeDuration")
+public func setShowTimeDuration(_ visible: Swift.Bool)
+@_cdecl("Sh_setAdsEnabled")
+public func setAdsEnabled(_ enabled: Swift.Bool)
+@_cdecl("Sh_setPreRollEnabled")
+public func setPreRollEnabled(_ enabled: Swift.Bool)
+@_cdecl("Sh_setAdFrequency")
+public func setAdFrequency(_ frequency: Swift.Int32)
+@_cdecl("Sh_setAdURLs")
+public func setAdURLs(_ cArray: Swift.UnsafePointer<Swift.UnsafePointer<Swift.CChar>?>, _ count: Swift.Int32)
+@_cdecl("Sh_registerUnityCallback")
+public func registerUnityCallback()
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor @preconcurrency public func topMostViewController() -> UIKit.UIViewController?
+}
 extension shortVideoUnity.DissabledViewModifier : Swift.Sendable {}
+extension shortVideoUnity.SwiftUISlider : Swift.Sendable {}
 extension shortVideoUnity.HiddenViewModifier : Swift.Sendable {}
 extension shortVideoUnity.VideoPlayerView : Swift.Sendable {}
-extension shortVideoUnity.SwiftUISlider : Swift.Sendable {}
